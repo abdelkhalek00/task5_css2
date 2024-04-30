@@ -1,0 +1,242 @@
+
+.contenar{
+    width: 800px;
+    /* height:40vh; */
+    background-color: rgb(222, 220, 220);
+    border: 3px solid black;
+    margin: 20px 0 20px 0;
+}
+.parent1{
+    width: 100%;
+    height: 7vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.p1_child1{
+    width: 100%;
+    height: 7vh;
+    background-color: gray;
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent2{
+    width: 100%;
+    height: 7vh;
+    /* background-color:aqua; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.p2_child1{
+    width: calc(100%/3);
+    height: 7vh;
+    background-color: gray;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2_child2{
+    width: calc(100%/3);
+    height: 7vh;
+    background-color: gray;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2_child3{
+    width: calc(100%/3);
+    height: 7vh;
+    background-color: gray;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent3{
+    width: 100%;
+    height: 7vh;
+    /* background-color: rgb(15, 218, 35); */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.p3_child1{
+    width: 50%;
+    height: 7vh;
+    background-color: gray;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p3_child2{
+    width: 50%;
+    height: 7vh;
+    background-color: gray;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent4{
+    width: 100%;
+    height: 7vh;
+    /* background-color: rgb(169, 13, 36); */
+    display: flex;
+    margin-bottom: 15px;
+}
+.p4_child1{
+    width: 25%;
+    height: 7vh;
+    background-color: gray;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4_child2{
+    width: 25%;
+    height: 7vh;
+    background-color: gray;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4_child3{
+    width: 25%;
+    height: 7vh;
+    background-color: gray;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4_child4{
+    width: 25%;
+    height: 7vh;
+    background-color: gray;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenar2{
+width: 800px;
+/* height: 40vh; */
+/* background-color: aqua; */
+border: 3px solid black;
+}
+.c2_parent1{
+    width: 100%;
+    height: 12vh;
+    background-color:gray;
+    color: black;
+    display: flex;
+    align-items: center;
+    
+}
+.c2_parent2{
+    width: 100%;
+    height: 12vh;
+    background-color:rgba(128, 128, 128, 0.295);
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.c2_parent3{
+    width: 100%;
+    height: 12vh;
+    background-color:rgba(128, 128, 128, 0.295);
+    color: rgba(0, 0, 0, 0.219);
+    display: flex;
+    align-items: center;
+}
+.contenar3{
+width: 800px;
+text-align: center;
+background-color:rgba(128, 128, 128, 0.295);
+margin: 20px 0 20px 0;
+border: 3px solid black;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.contenar4{
+    width: 800px;
+    text-align: center;
+    background-color:rgba(128, 128, 128, 0.295);
+    margin: 20px 0 20px 0;
+    border: 3px solid black;
+}
+.contenar5{
+    width: 800px;
+    justify-content: center;
+    background-color:rgba(128, 128, 128, 0.295);
+    margin: 20px 0 20px 0;
+    border: 3px solid black;
+}
+.c5_child1{
+    width: 85px;
+    height: 60px;
+    background-color: brown;
+    margin: 20px 0 20px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.c5_child2{
+    width: 240px;
+    height: 60px;
+    background-color: brown;
+    margin: 20px 0 20px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.c5_child3{
+    width: 350px;
+    height: 60px;
+    background-color: brown;
+    margin: 20px 0 20px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.c5_child4{
+    width: 400px;
+    height: 60px;
+    background-color: brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0 20px 0;
+}
+.contenars_margin-left{
+    margin-left: 350px;
+}
+.c5childs_marginleft{
+    margin-left: 400px;
+}
+.hover:hover{
+    border: 5px solid black;
+}
+
+
